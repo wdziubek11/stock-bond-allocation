@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/stock-bond-allocation/static/js/main.1ff543e9.chunk.js",
-    "main.js.map": "/stock-bond-allocation/static/js/main.1ff543e9.chunk.js.map",
+    "main.js": "/stock-bond-allocation/static/js/main.73e91cce.chunk.js",
+    "main.js.map": "/stock-bond-allocation/static/js/main.73e91cce.chunk.js.map",
     "runtime-main.js": "/stock-bond-allocation/static/js/runtime-main.4e6631b9.js",
     "runtime-main.js.map": "/stock-bond-allocation/static/js/runtime-main.4e6631b9.js.map",
     "static/js/2.a2e2a23b.chunk.js": "/stock-bond-allocation/static/js/2.a2e2a23b.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.4e6631b9.js",
     "static/js/2.a2e2a23b.chunk.js",
-    "static/js/main.1ff543e9.chunk.js"
+    "static/js/main.73e91cce.chunk.js"
   ]
 }
