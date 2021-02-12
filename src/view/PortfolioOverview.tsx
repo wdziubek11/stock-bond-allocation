@@ -8,7 +8,7 @@ export const PortfolioOverview = () => {
   const { data: investmentTypeAllocation } = usePortfolioAllocation();
 
   return (
-    <div>
+    <>
       <h2>{portfolio.name}</h2>
       <StyledContainer>
         <StyledEquity>Equities</StyledEquity>
@@ -18,7 +18,7 @@ export const PortfolioOverview = () => {
         />
         <StyledBondLabel>Bonds</StyledBondLabel>
       </StyledContainer>
-    </div>
+    </>
   );
 };
 
@@ -27,7 +27,7 @@ const StyledContainer = styled.div`
   flex: 1;
   justify-content: space-evenly;
   align-items: center;
-  height: 4rem;
+  height: 3rem;
   max-width: 50rem;
   margin: 2rem auto;
 `;

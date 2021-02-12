@@ -33,7 +33,6 @@ export const PortfolioWidget = () => {
 };
 
 const StyledContainer = styled.div`
-  width: 100%;
   display: flex;
   flex: 1;
   flex-direction: column;

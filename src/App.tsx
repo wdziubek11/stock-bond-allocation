@@ -28,4 +28,6 @@ export default App;
 
 const StyledContainer = styled.div`
   padding: 2rem;
+  width: 75%;
+  margin: auto;
 `;
