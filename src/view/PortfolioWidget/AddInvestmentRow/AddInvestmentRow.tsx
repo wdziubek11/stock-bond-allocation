@@ -30,8 +30,8 @@ export const AddInvestmentRow = () => {
   return unassignedInvestments.length ? (
     <StyledRow>
       {active ? (
-        <Select defaultValue="" onChange={handleOnChange}>
-          <MenuItem value="">Please select investment</MenuItem>
+        <Select defaultValue={0} onChange={handleOnChange}>
+          <MenuItem value={0}>Please select investment</MenuItem>
           {unassignedInvestments.map(({ id, name }) => (
             <MenuItem key={id} value={id}>
               {name}
